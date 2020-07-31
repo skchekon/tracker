@@ -31,7 +31,7 @@ properties:
   SMTP_FROM_NAME: "Tracker@CloudControl"
   SMTP_FROM_EMAIL: webmaster@cloudbourne.co
   
-  MAILER_METHOD: PHPMAILER_METHOD_SMTP
+  MAILER_METHOD: 2
   SMTP_HOST: mail.authsmtp.com
   SMTP_PORT: 2525
   SMTP_USER: ac72757
