@@ -34,7 +34,8 @@ properties:
   MAILER_METHOD: 2
   SMTP_HOST: mail.authsmtp.com
   SMTP_PORT: 2525
-  SMTP_USER: ac72757
+  SMTP_USER: 
+    vault: SMTP_USER
   SMTP_PASSWORD:
     vault: SMTP_PASSWORD     
   SMTP_CONNECTION_MODE: tls
