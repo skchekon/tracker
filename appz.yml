@@ -1,0 +1,31 @@
+app:
+  code: TRACKER
+  name: Tracker
+  notify: appzdev@cloudbourne.co
+  
+build:
+  build_file: none
+  env: DEV
+  image_name: myco/tracker
+  image_template: mantis-2.24
+  output_files: output/*.zip
+  version: 2.24
+  
+deploy:
+  context: myco/DEV
+  port:
+  - 80
+  replicas: 1
+  
+properties:
+  HOST: mysql-5-7
+  DBNAME: tracker 
+  DBUSERNAME: tracker 
+  DBTYPE: mysqli
+  DBPASSWORD:
+    vault: MYSQL_DB_PASSWORD
+  TRACKER_TITLE: "Tracker@CloudControl"
+  LOGOURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/06/logo-wh-v4.png
+  TABLOGURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/06/logo-wh-v4.png
+  revision: 63
+  
