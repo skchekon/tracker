@@ -25,8 +25,8 @@ properties:
   DBPASSWORD:
     vault: MYSQL_DB_PASSWORD
   TRACKER_TITLE: "Tracker@CloudControl"
-  LOGOURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/07/logo_v1-tracker.png
-  TABLOGURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/07/logo_v1-tracker.png
+  LOGOURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/06/logo-wh-v4.png
+  TABLOGURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/06/logo-wh-v4.png
   
   SMTP_FROM_NAME: "Tracker@CloudControl"
   SMTP_FROM_EMAIL: webmaster@cloudbourne.co
