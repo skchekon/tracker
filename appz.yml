@@ -27,5 +27,24 @@ properties:
   TRACKER_TITLE: "Tracker@CloudControl"
   LOGOURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/06/logo-wh-v4.png
   TABLOGURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/06/logo-wh-v4.png
+  
+  SMTP_FROM_NAME: "Tracker@CloudControl"
+  SMTP_FROM_EMAIL: webmaster@cloudbourne.co
+  
+  MAILER_METHOD: PHPMAILER_METHOD_SMTP
+  SMTP_HOST: mail.authsmtp.com
+  SMTP_PORT: 2525
+  SMTP_USER: ac72757
+  SMTP_PASSWORD:
+    vault: SMTP_PASSWORD     
+  SMTP_CONNECTION_MODE: tls
+
+  HISTORY_ORDER: ASC
+  BUGNOTE_ORDER: ASC
+
+  MAX_FILE_SIZE: 33554432
+  FILE_MAX: 5
+  DISALLOWED_FILES: "php,php3,phtml,html,class,java,exe,pl,py"
+  
   revision: 64
   
