@@ -25,8 +25,8 @@ properties:
   DBPASSWORD:
     vault: MYSQL_DB_PASSWORD
   TRACKER_TITLE: "Tracker@CloudControl"
-  LOGOURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/07/logo_v1.png
-  TABLOGURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/07/logo_v1.png
+  LOGOURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/07/logo_v1-xsmall.png
+  TABLOGURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/07/logo_v1-xsmall.png
   
   SMTP_FROM_NAME: "Tracker@CloudControl"
   SMTP_FROM_EMAIL: webmaster@cloudbourne.co
@@ -47,5 +47,5 @@ properties:
   FILE_MAX: 5
   DISALLOWED_FILES: "php,php3,phtml,html,class,java,exe,pl,py"
   
-  revision: 64
+  revision: 65
   
