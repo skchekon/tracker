@@ -19,8 +19,7 @@ deploy:
 properties:
   HOST: mysql-5-7
   DBNAME: tracker 
-  DBUSERNAME: tracker 
-  DBTYPE: mysqli
+  DBUSERNAME: tracker
   DBPASSWORD:
     vault: MYSQL_DB_PASSWORD
   TRACKER_TITLE: "Tracker@CloudControl"
