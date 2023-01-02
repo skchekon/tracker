@@ -20,6 +20,7 @@ properties:
   HOST: mysql-5-7
   DBNAME: tracker 
   DBUSERNAME: tracker
+  DBTYPE: mysqli
   DBPASSWORD:
     vault: MYSQL_DB_PASSWORD
   TRACKER_TITLE: "Tracker@CloudControl"
