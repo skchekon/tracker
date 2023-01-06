@@ -12,6 +12,7 @@ build:
   
 deploy:
   context: ecloudcontrol/PROD
+  ingress: none
   port:
   - 80
   replicas: 1
