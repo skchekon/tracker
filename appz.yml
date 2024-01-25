@@ -27,7 +27,7 @@ properties:
   TRACKER_TITLE: "Tracker@CloudControl"
   LOGOURL: https://www.ecloudcontrol.com/wp-content/uploads/2020/07/logo_v1-xsmall.png
   
-  SMTP_FROM_NAME: "Tracker@CloudControl"
+  SMTP_FROM_NAME: "Tracker@CloudOrbit"
   SMTP_FROM_EMAIL: webmaster@cloudbourne.co
   
   MAILER_METHOD: 2
