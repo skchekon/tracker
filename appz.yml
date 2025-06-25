@@ -1,18 +1,17 @@
 app:
   code: TRACKER
   name: Tracker
-  notify: appzdev@cloudbourne.co
+  notify: skchekon@ecloudcontrol.com
   
 build:
   build_file: none
   env: DEV
-  image_name: myco/tracker
-  image_template: mantis-2.24
+  image_template: mantis-2.27
   output_files: output/*.zip
-  version: 2.24
+  version: 2.27
   
 deploy:
-  context: myco/DEV
+  context: skchekon/DEV
   port:
   - 80
   replicas: 1
@@ -46,5 +45,5 @@ properties:
   FILE_MAX: 5
   DISALLOWED_FILES: "php,php3,phtml,html,class,java,exe,pl,py"
   
-  revision: 71
+  revision: 0
   
